@@ -1,0 +1,484 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+    position: fixed;
+    left: 55%;
+    right: 10%;
+    bottom: 85%;
+}
+
+.main {
+    background-repeat: no-repeat;
+    background: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    max-width: 920px;
+    max-height: fit-content;
+    background-image: fixed;
+}
+
+.back {
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    top: 27px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    position: fixed;
+    left: 55%;
+    right: 10%;
+    bottom: 75%;
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+}
+
+h4 {
+    text-align: center;
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.anchor {
+    font-size: 20px;
+    color: aliceblue;
+    position: fixed;
+    left: 66%;
+    bottom: 65%;
+    right: 50%;
+}
+
+.contactme {
+    font-size: 20px;
+    color: aliceblue;
+    position: fixed;
+    left: 73%;
+    bottom: 65%;
+    right: 10%;
+}
+
+.own {
+    font-size: 43px;
+    font-weight: bold;
+    color: rgb(255, 252, 253);
+    position: fixed;
+    bottom: 30%;
+    left: 0%;
+    right: 50%;
+}
+
+.ad {
+    font-size: 43px;
+    font-weight: bold;
+    font-style: initial;
+    color: rgb(237, 245, 236);
+    position: fixed;
+    bottom: 23%;
+    left: 9%;
+    right: 50%;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: calc();
+    color: aliceblue;
+}
+
+.text:hover {
+    color: rgb(228, 12, 12);
+}
+
+.bot {
+    position: fixed;
+    bottom: 55%;
+    left: 68%;
+    right: 15%;
+}
+
+.he {
+    font-size: 43px;
+    font-weight: bold;
+    color: rgb(245, 243, 244);
+    position: fixed;
+    bottom: 82%;
+    left: 43%;
+    right: 10%;
+    margin-top: 15%;
+}
+
+.hd {
+    font-size: 43px;
+    font-weight: bold;
+    font-style: initial;
+    color: rgba(252, 246, 246, 0.904);
+    position: fixed;
+    bottom: 74%;
+    left: 54%;
+    right: 20%;
+    margin-top: 22%;
+}
+
+.bo {
+    position: fixed;
+    bottom: 65%;
+    left: 59%;
+    right: 26%;
+    margin-top: 25%;
+}
+
+.about {
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: var(20%);
+    position: fixed;
+    bottom: 75%;
+    left: 5%;
+    right: 58%;
+}
+
+.img {
+    max-width: 100%;
+    padding-top: 55%;
+}
+
+.id {
+    height: 700px;
+    width: 100px;
+    position: fixed;
+    bottom: 45%;
+    left: 10%;
+    right: 53%;
+    padding-top: 35%;
+}
+
+.dow {
+    width: 100vh;
+    margin: 50px auto 0;
+    display: table;
+    float: right;
+    left: 50%;
+    box-sizing: border-box;
+}
+
+.download-btn {
+    background-color: dodgerblue;
+    align-items: center;
+    color: white;
+    padding: 1px;
+    font-size: 20px;
+    height: 15px;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.download-btn:hover {
+    background-color: royalblue;
+}
+
+.my {
+    width: 2500px;
+    margin: 50px auto 0;
+    display: table;
+    box-sizing: border-box;
+}
+
+.pr {
+    color: rgb(248, 244, 244);
+    font-size: 25px;
+    width: 50%;
+    bottom: 30%;
+    left: 15%;
+    right: 15%;
+}
+
+.nav_bar {
+    background-color: var(rgb(10, 0, 0));
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.logo {
+    color: var(--color-white);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo span {
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+.nav_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav_bar ul li {
+    position: relative;
+    padding: 15px 35px;
+    float: left;
+    left: 170%;
+    right: 0%;
+}
+
+.nav_bar ul li a {
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: all 0.1s;
+}
+
+.nav_bar ul li a:hover {
+    color: var(--color-primary);
+}
+
+.log {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+}
+
+.form {
+    background: linear-gradient(-135DEG, #c850c0, #4158d0);
+    top: 50%;
+    bottom: 20%;
+    left: 20%;
+    right: 70%;
+    padding-top: 10%;
+    padding-left: 10%;
+    border: none;
+}
+
+.form .input-data {
+    height: 40px;
+    width: 250px;
+    border: none;
+    position: relative;
+}
+
+.form .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid silver;
+}
+
+.input-data input:focus~label,
+.input-data input:valid~label {
+    transform: translateY(-10px);
+    font-size: 15px;
+    font-style: normal;
+    border: none;
+    color: #4158d0;
+}
+
+.form .input-data label {
+    position: absolute;
+    bottom: 10px;
+    left: 4px;
+    ;
+    color: gray;
+    pointer-events: none;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.form .input-data .underline {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    border: none;
+    background: red;
+}
+
+.input-data .underline::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: #4158d0;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus~.underline::before,
+.input-data input:valid~.underline::before {
+    transform: scale(1);
+    border: none;
+}
+
+.for .submit-btn {
+    display: inline-block;
+    background-image: linear-gradient(125deg, #a72879, #064479);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 8px 16px;
+    border: none;
+    width: 50px;
+    top: 5%;
+    cursor: pointer;
+}
+
+.for {
+    background: linear-gradient(-135DEG, #c850c0, #4158d0);
+    top: 25%;
+    bottom: 20%;
+    left: 20%;
+    right: 70%;
+    padding-top: 3%;
+    padding-left: 10%;
+    border: none;
+}
+
+.for .input-data {
+    height: 40px;
+    width: 100px;
+    border: none;
+    position: relative;
+}
+
+.for .input-data button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid silver;
+}
+
+.message {
+    background: linear-gradient(-135DEG, #c850c0, #4158d0);
+    top: 25%;
+    bottom: 20%;
+    left: 20%;
+    right: 70%;
+    padding-top: 2%;
+    padding-left: 10%;
+    border: none;
+}
+
+.message .input-data {
+    height: 40px;
+    width: 100px;
+    border: none;
+    position: relative;
+}
+
+.message .input-data input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 15px;
+    border-bottom: 1px solid silver;
+}
+
+.futer {
+    position: relative;
+    align-items: center;
+    font-size: 15px;
+    color: aliceblue;
+    height: 5px;
+    width: 20px;
+    padding-left: 40%;
+}
+
+.lo {
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    right: 30%;
+    left: 20%;
+    align-items: center;
+}
+
+.ls {
+    position: absolute;
+    font-weight: bold;
+    font-size: 15px;
+    color: azure;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0px;
+}
+
+.row-lg-1 .col-lg-12 .form .input {
+    position: absolute;
+    column-width: 25px;
+    font-size: 15px;
+    color: antiquewhite;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0px;
+}
+
+.popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open_popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #6fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}

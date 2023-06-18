@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="C:\xampp\htdocs\mypersonal\css\bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="C:\xampp\htdocs\mypersonal\css\samarth.css" type="text/css" />
+    <title>Breadcrum</title>
+</head>
+
+<body class="bg-dark">
+    <script type="text/javascript" src="C:\xampp\htdocs\mypersonal\javascript\samarth.js"></script>
+    <div class="row-lg-1" style="height: 40px;">
+        <div class="col-lg-12">
+            <ul class="ls">
+                <li class="modal-header"><a style="color: antiquewhite;" href="C:\xampp\htdocs\mypersonal\html\samarth.html">HOME</a></li>
+                <li class="modal-header"><a style="color: antiquewhite;" href="C:\xampp\htdocs\mypersonal\html\myskill.html">SKILLS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row-lg-1" style="height: 525px; margin-top: 30px;">
+        <div class="col-lg-12" style="padding-top: 20px; padding-left: 30px;">
+            <form method="post">
+                <input style="width: 400px; height: 50px; color: aliceblue; background: transparent; border: none; border-bottom: 2px solid rgb(255, 252, 252);" type="text" name="name" placeholder="Name"><br>
+                <input style="width: 400px; height: 50px; color: aliceblue; background: transparent; border: none; border-bottom: 2px solid rgb(255, 252, 252);" type="text" name="email" placeholder="Email"><br>
+                <input style="width: 400px; height: 50px; color: aliceblue; background: transparent; border: none; border-bottom: 2px solid rgb(255, 252, 252);" maxlength="3" type="text" name="age" placeholder="Age"><br>
+                <input style="width: 400px; height: 50px; color: aliceblue; background: transparent; border: none; border-bottom: 2px solid rgb(255, 252, 252);" type="text" name="location" placeholder="Location"><br>
+                <textarea style=" background: transparent; border: none; color: aliceblue; border-bottom: 2px solid rgb(255, 252, 252);" name="message" rows="6" cols="75" placeholder="Your message/suggestion"></textarea><br>
+                <pr><span style="font-size: 25px; font-family: 'Courier New', Courier, monospace; font-weight: bold; color: aliceblue;">Rate my website</span></pr><br>
+                <input type="radio" class="ml-3" id="gender-male" name="Rate" value="male" />
+                <label style="color: aliceblue; font-size: 20px;">
+                                Excellent
+                            </label><br>
+                <input type="radio" class="ml-3" id="gender-female" name="Rate" value="female" />
+                <label style="color: aliceblue; font-size: 20px;">
+                                Best
+                            </label><br>
+                <input type="radio" class="ml-3" id="gender-female" name="Rate" value="female" />
+                <label style="color: aliceblue; font-size: 20px;">
+                                Good
+                            </label><br>
+                <div class="input-data">
+                    <button class="submit-btn" type="submit" name="send" value="submit" onclick="openPopup()">SUBMIT</button>
+                    <div class="popup" id="popup">
+                        <img src="C:\xampp\htdocs\mypersonal\img\pngtree-click-the-done-button-and-tick-icon-vector-png-image_6674605.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been successfully submitted. Thanks!</p>
+                        <button type="button" onclick="closePopup()">Ok</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row-lg-1" style="height: 50px;">
+        <div class="col-lg-12">
+            <span class="futer">Created by Samarth Sangar</span><br>
+            <span class="futer" style="font-weight: bold; padding-left: 45%; color: brown;">@WebDeb</span>
+        </div>
+    </div>
+</body>
+
+</html>
